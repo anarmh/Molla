@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/scss/pages/cart/cart.css">
+</head>
+<body>
+
+  <header>
+    <section id="up-navbar">
+      <div class="container">
+        <nav class="up">
+          <div class="row">
+            <div class="col-12">
+              <div class="up-nav">
+                <div class="left">
+                  <i class="fa-solid fa-phone"></i>
+                  <span>Call: +0123 456 789</span>
+                </div>
+                <div class="right">
+                  <ul>
+                    <li class="first">
+                      <a class="links" href=""
+                        >Links<i class="fa-solid fa-angle-down"></i
+                      ></a>
+                    </li>
+                    <li class="second hide">
+                      <div class="dropdown">
+                        <a href=""
+                          >USD <i class="fa-solid fa-angle-down"></i
+                        ></a>
+                        <div class="dropdown-content">
+                          <div class="div">
+                            <a href="">Eur</a>
+                          </div>
+                          <div class="div">
+                            <a href="">usd</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="third hide">
+                      <div class="dropdown">
+                        <a href=""
+                          >English <i class="fa-solid fa-angle-down"></i
+                        ></a>
+                        <div class="dropdown-content">
+                          <div class="language">
+                            <a href="">English</a>
+                          </div>
+                          <div class="language">
+                            <a href="">French</a>
+                          </div>
+                          <div class="language">
+                            <a href="">Spanish</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="fourth hide">
+                      <a href="./login.html">Sign in/Sign up</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container">
+        <nav class="down">
+          <div class="row">
+            <div class="col-12">
+              <div class="down-nav">
+                <div class="img">
+
+<button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i class="fa-solid fa-bars"></i></button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+<div class="offcanvas-header">
+  
+  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+  <p>Try scrolling the rest of the page to see this option in action.</p>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+<div class="offcanvas-header">
+  
+  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+  <p>.....</p>
+</div>
+</div>
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+<div class="offcanvas-header">
+  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"></h5>
+  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+ <form action="">
+  <input type="search" placeholder="Search product">
+  <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+ </form>
+
+ <div class="header">
+  <div class="left"><p>Menu</p></div>
+  <div class="right"><p>CATEGORIES</p></div>
+ </div>
+ <div class="body">
+  <div class="left"><p>SHOP</p></div>
+  <div class="right"><i class="fa-solid fa-angle-down"></i></div>
+ </div>
+ <div class="body">
+  <div class="left"><p>PRODUCT</p></div>
+  <div class="right"><i class="fa-solid fa-angle-down"></i></div>
+ </div>
+ <div class="body">
+  <div class="left"><p>PAGES</p></div>
+  <div class="right"><i class="fa-solid fa-angle-down"></i></div>
+ </div>
+ <div class="body">
+  <div class="left"><p>BLOG</p></div>
+  <div class="right"><i class="fa-solid fa-angle-down"></i></div>
+ </div>
+ <div class="body">
+  <div class="left"><p>ELEMENTS</p></div>
+  <div class="right"><i class="fa-solid fa-angle-down"></i></div>
+ </div>
+ <div class="body">
+  <div class="left"><p>HOME</p></div>
+  <div class="right"><i class="fa-solid fa-angle-down"></i></div>
+ </div>
+
+ <div class="social-icons">
+  <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+  <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+  <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+  <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+ </div>
+
+
+</div>
+</div>
+                  <a href="index.html">
+                    <img src="./assets/img/logo.png" alt="" />
+                  </a>
+                </div>
+                <div class="search">
+                  <div class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                  <div class="input">
+                    <input type="text" placeholder="Search Product ..." />
+                  </div>
+                </div>
+
+                <div class="icons">
+                  <div class="icon-text">
+                    <div class="icon">
+                      <a href=""> <i class="fa-solid fa-shuffle"></i></a>
+                    </div>
+                    <p>Compare</p>
+                  </div>
+                  <div class="icon-text">
+                    <div class="icon">
+                      <a href="wishlist.html"> <i class="fa-regular fa-heart"></i></a>
+                      <div class="wislist-sup">
+                        <span>0</span>
+                      </div>
+                    </div>
+                    <p>Wishlist</p>
+                  </div>
+                  <div class="icon-text">
+                    <div class="icon">
+                      <a href="cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i
+                      ></a>
+                      <div class="cart-sup">
+                        <span> 0</span>
+                      </div>
+                    </div>
+                    <p>Cart</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section id="down-navbar" class="sticky-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="left-header">
+              <div class="category">
+                <div class="icon">
+                  <i class="fa-solid fa-xmark hide"></i>
+                  <i class="fa-solid fa-bars show"></i>
+                </div>
+                <div class="browse"><a href="">Browse Categories</a></div>
+                <div class="angle-down">
+                  <i class="fa-solid fa-angle-down"></i>
+                </div>
+              </div>
+              <div class="side-bar">
+                <ul>
+                  <li class="first"><a href="">Electronics</a></li>
+                  <li><a href="">Gift ideas</a></li>
+                  <li><a href="">Beds </a></li>
+                  <li><a href="">lighting</a></li>
+                  <li><a href="">Sofas & Sleeper sofas</a></li>
+                  <li><a href="">Storage</a></li>
+                  <li><a href="">Armchairs & Chaises</a></li>
+                  <li><a href="">Decoration</a></li>
+                  <li><a href="">Kitchen cabinets</a></li>
+                  <li><a href="">Coffee & Tables</a></li>
+                  <li><a href="">Outdoor furniture</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 d-flex justify-content-center align-items-center">
+            <div class="center-header">
+              <ul>
+                <li>
+                  <a class="home" href="index.html"
+                    >Home <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <div class="line"></div>
+                </li>
+                <li>
+                  <a class="lines-bottom" href="shop.html"
+                    >Shop
+                    <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <div class="lines"></div>
+                </li>
+                <li>
+                  <a class="lines-bottom" href="about.html"
+                    >About <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <div class="lines"></div>
+                </li>
+                <li class="pages dropdown">
+                  <a class="lines-bottom" href=""
+                    >Pages <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <div class="lines"></div>
+                  <div class="list">
+                    <ul>
+                      <li><a class="link" href="about.html">About</a></li>
+                      <li><a class="link" href="contact.html">Contact</a></li>
+                      <li><a class="link" href="login.html">Login</a></li>
+                      <li><a class="link" href="blog.html">Blog</a></li>
+                      <li><a class="link" href="">Error 404</a></li>
+                      <li><a class="link" href="">Coming Soon</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a class="lines-bottom" href="blog.html"
+                    >Blog <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <div class="lines"></div>
+                </li>
+                <li>
+                  <a class="lines-bottom" href="contact.html"
+                    >Contact <i class="fa-solid fa-angle-down"></i>
+                  </a>
+                  <div class="lines"></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="right-header">
+              <div class="bulb">
+                <i class="fa-regular fa-lightbulb"></i>
+              </div>
+              <div class="text">
+                <p><span class="highlight">&nbsp;Up to 30% Off</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+      <main>
+        <section id="page-header">
+            <div class="container">
+             
+              <h1 class="title">Shopping Cart</h1>
+              <p>Shop</p>
+            </div>
+          </section>
+          <section id="nav">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li>
+                      <i class="fa-solid fa-angle-right"></i
+                      ><a href="">Shop</a>
+                    </li>
+                    <li><i class="fa-solid fa-angle-right"></i>Shopping Cart</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="cart">
+              <div class="cart-header d-none">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="cart-empty text-center">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p class="add-cart my-5">No products added to the cart</p>
+                        <p class="return"><a href="">Return to shop</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+         
+
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-9 closest">
+                        <table class="table ">
+                            <thead>
+                              <tr>
+                                <th class="title"scope="col">Product</th>
+                                <th class="title" scope="col"></th>
+                                <th class="title" scope="col">Price</th>
+                                <th class="title" scope="col">Quantity</th>
+                                <th class="title" scope="col">Total</th>
+                                <th class="title" scope="col"></th>
+                              </tr>
+                            </thead>
+                            <tbody class="cart-info">
+                              <!-- <tr>
+                                <th >1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>
+                                    <div class="input">
+                                        <div class=" icon prev "><i class="fa-solid fa-minus"></i></div>
+                                        <input type="number" value="1">
+                                        <div class="icon next"><i class="fa-solid fa-plus"></i></div>
+                                    </div>
+                                </td>
+                                <td>@mdo</td>
+                                <td><i class="fa-solid fa-xmark"></i></td>
+                              </tr> -->
+                            
+                            </tbody>
+                          </table>
+                          <div class="cart-bottom">
+                            <div class="left">
+                                <form action="">
+                                    <input type="text" class="" placeholder="coupon code">
+                                    <button type="submit">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </button>
+                                </form>
+                              
+                            </div>
+                            <div class="right">
+                                <button type="submit">
+                                    <span>UPDATE CART</span>
+                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                </button>
+                            </div>
+                          </div>
+
+                    </div>
+                    <div class="col-lg-3 cart-total">
+                        <aside>
+                            <div class="sum-cart">
+                                <h3>Cart Total</h3>
+                                <table class="table borderless">
+                                   
+                                    <tbody>
+                                      <tr class="subtotal">
+                                        <td class="sub">Subtotal</td>
+                                        <td>
+                                            <span></span>
+                                            <span class=""></span>
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td class="shipping">Shipping</td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <div class="radio">
+                                                <input type="radio" name="shipping">
+                                               <label for="">Free Shipping</label>
+                                            </div>
+                                        </td>
+                                        <td>$0.00</td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <div class="radio">
+                                                <input type="radio" name="shipping">
+                                               <label for="">Standart</label>
+                                            </div>
+                                        </td>
+                                        <td>$10.00</td>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <div class="radio">
+                                                <input type="radio" name="shipping">
+                                               <label for="">Express</label>
+                                            </div>
+                                        </td>
+                                        <td>$20.00</td>
+                                      </tr>
+                                      <tr>
+                                        <td class="estimate">Estimate for your Country <br>
+                                        <a href="">Change address</a></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="total">Total</td>
+                                        <td class="total"><span>$</span><span class="all-total"></span></td>
+                                    </tr>
+                                    
+    
+                                    </tbody>
+                                  </table>
+                                  <a class="checkout" href="">PROCEED TO CHECKOUT</a>
+                            </div>
+                            
+                        </aside>
+                        <a class="continue" href="">CONTINUE SHOPPING <i class="fa-solid fa-arrows-rotate"></i></a> 
+                        
+                    </div>
+                </div>
+            </div>
+
+
+          </section>
+
+
+
+      </main>
+      <footer>
+        <section id="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-lg-3">
+                <div class="about">
+                  <img src="./assets/img/logo-footer.png" alt="" />
+                  <p>
+                    Praesent dapibus, neque id cursus ucibus, tortor neque egestas
+                    augue, eu vulputate magna eros eu erat.
+                  </p>
+                  <div class="call">
+                    <i class="fa-solid fa-phone"></i>
+                    Got Question? Call us 24/7
+                    <a href="">+0123 456 789</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="title">
+                  <h4>Useful Links</h4>
+                  <ul>
+                    <li><a href="">About Molla</a></li>
+                    <li><a href="">Our Services</a></li>
+                    <li><a href="">How to shop on Molla</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Contact us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="title">
+                  <h4>Customer Service</h4>
+                  <ul>
+                    <li><a href="">Payment Methods</a></li>
+                    <li><a href="">Money-back guarantee!</a></li>
+                    <li><a href="">Returns</a></li>
+                    <li><a href="">Shipping</a></li>
+                    <li><a href="">Terms and conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="title">
+                  <h4>My Account</h4>
+                  <ul>
+                    <li><a href="">Sign in</a></li>
+                    <li><a href="">View Cart</a></li>
+                    <li><a href=""> My Wishlist</a></li>
+                    <li><a href="">Track My Order</a></li>
+                    <li><a href="">Help</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="footer">
+              <div class="row">
+                <div class="col-12">
+                  <div class="payments">
+                    <p>Copyright © 2023 Molla Store. All Rights Reserved.</p>
+                    <div class="img">
+                      <img src="./assets/img/payments.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+
+    <script src="https://kit.fontawesome.com/9c6e6ff268.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+    <script src="./assets/js/cart.js"></script>
+</body>
+</html>

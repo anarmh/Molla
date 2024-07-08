@@ -1,0 +1,232 @@
+@import "../layout/header";
+@import"../layout/footer";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+
+    ul{
+        display: flex;
+       padding-top: 10px;
+        gap: 20px;
+        li{
+            list-style-type: none;
+            color: #999490;
+            a{
+                text-decoration: none;
+                color: #999490;
+                &:hover{
+                    color: #fcb941;
+                }
+            }
+            i{
+                padding-right: 10px;
+                font-size: 12px;
+            }
+        }
+    }
+}
+#page-header{
+
+    .bg-page{
+        min-height: 450px;
+        background-image: url("../../../img/contact-header-bg.jpg");
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        h1{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: #fff!important;
+            line-height: 35px;
+            span{
+                display: block;
+                font-size: 15px;
+                font-weight: 400;
+               
+            }
+        }
+    }
+}
+
+#content{
+    .contact-info{
+        padding-left: 10px;
+        padding-right: 10px;
+        p{
+            color: #666;
+            margin-top: 10px;
+        }
+
+
+        .info{
+
+            .title{
+
+                margin-bottom: 20px !important;
+            }
+           
+          
+            h3{
+                margin-top: 10px;
+                font-weight: 400;
+                font-size: 20px;
+                margin-bottom: 20px;
+                color: #333
+            }
+            ul{
+                max-width: 300px;
+                padding-left: 0;
+                list-style: none;
+               
+                li{
+                  
+                  span{
+                    padding-left: 20px;
+                  }
+                    i{
+                        color: #fcb941;
+                        display: inline-block;
+                    }
+                    .text{
+                        padding-left: 40px;
+                    }
+
+                    
+                    a{
+                        text-decoration: none;
+                        padding-left: 20px;
+                        color: #666;
+                    }
+                }
+            }
+
+
+        }
+      
+    }
+    
+   .quetions{
+
+
+    p{
+        color: #666;
+        margin-top: 10px;
+    }
+
+
+    form{
+        input{
+            background-color: #fafafa;
+            border: 1px solid #ebebeb !important;
+        }
+        textarea{
+            background-color: #fafafa;
+            border: 1px solid #ebebeb !important;
+            min-height: 130px;
+        }
+        button{
+            background-color: #fff;
+            border: 1px solid #fcb941;
+            padding: 8px 16px;
+            &:hover{
+                background-color: #fcb941;
+            }
+            &:hover span{
+                color: #fff !important;
+            }
+            
+            &:hover i{
+                color: #fff;
+            }
+            span{
+                text-transform: uppercase;
+                color: #fcb941;
+                font-size: 13px;
+            }
+            i{
+                color: #fcb941;
+                margin-left: 16px;
+                font-size: 12px;
+            }
+            
+        }
+    }
+   }
+   hr{
+    border-top: 1px solid rgba(0,0,0,.1);
+   }
+}
+
+
+#stores{
+
+    h2.title{
+        margin-bottom: 50px;
+    }
+    .store-title{
+        font-weight: 400;
+      
+        font-size: 15px;
+        margin-bottom: 10px;
+         margin-top:-4px;
+         color: #333;
+
+    }
+    .address{
+        font-weight: 300;
+         font-style: normal;
+        margin-bottom: 0;
+         color: #777
+    }
+    .phone-number{
+        a{
+            color: #777;
+            text-decoration: none;
+            &:hover{
+                color: #fcb941;
+            }
+        }
+    }
+
+
+    h4{
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 50px;
+        margin-bottom: 17px;
+    }
+    .date-time{
+        color: #777;
+        line-height: 10px;
+        margin-bottom: 20px;
+        
+    }
+    .map{
+        text-decoration: none;
+        padding-bottom: 10px;
+        &:hover{
+            border-bottom: 1px solid #fcb941;
+        }
+        span{
+            color: #fcb941;
+        }
+        i{
+            color: #fcb941;
+            margin-left: 10px;
+            font-size: 10px;
+        }
+    }
+}
+#map{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}

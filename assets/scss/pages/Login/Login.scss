@@ -1,0 +1,172 @@
+@import "../layout/header";
+@import "../layout/footer";
+
+
+#nav{
+
+    ul{
+        display: flex;
+       padding-top: 10px;
+        gap: 20px;
+        li{
+            list-style-type: none;
+            color: #999490;
+            a{
+                text-decoration: none;
+                color: #999490;
+                &:hover{
+                    color: #fcb941;
+                }
+            }
+            i{
+                padding-right: 10px;
+                font-size: 12px;
+            }
+        }
+    }
+}
+#login{
+   
+   height: 850px;
+    background-image: url("../../../img/login-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+  
+    .form-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           width: 100%;
+           padding: 100px;
+        .tabs{
+            width: 575px;
+            background-color: white;
+            .tab{
+                padding: 30px;
+                ul{
+                    display: flex;
+                    justify-content: space-around;
+                    
+                   
+                    li{
+                        width: 240px;
+                        list-style-type: none;
+                        padding: 20px 40px;
+                       border-bottom: 1px solid #ebebeb;
+                        span{
+                           
+                            font-size: 25px;
+                            font-weight: 400;
+                          
+                        }
+                        .register{
+                            
+                            &:hover{
+                                color: #fcb941;
+                            }
+                        }
+                       
+                    }
+                    .sign{
+                        border-bottom: 2px solid #fcb941;
+                    }
+                }
+
+                .content{
+
+                    .form-group{
+
+                        input{
+                            outline-color: #fcb941 !important;
+                        }
+                       
+                    }
+
+                    .form-footer{
+                        display: flex;
+                        justify-content: space-between;
+                        padding-top: 10px;
+                        padding-bottom: 50px;
+                        border-bottom: 1px solid #ebebeb;
+                        button{
+                           padding: 10px 30px;
+                           border:1px solid #fcb941;
+                           background-color: white;
+                           &:hover{
+                            background-color: #fcb941;
+                           }
+                           &:hover span{
+                            color: white;
+                           }
+                           &:hover i{
+                            color: white;
+                           }
+                           span{
+                            color: #fcb941;
+                           }
+                           i{
+                            color: #fcb941;
+                            padding-left: 10px;
+                           }
+                        }
+
+                        .check-box{
+                            padding-top: 10px;
+
+                            input{
+                                cursor: pointer;
+                            }
+                            label{
+                                color: #666;
+                                cursor: pointer;
+                            }
+                            a{
+                                text-decoration: none;
+                                color: #666;
+                                &:hover{
+                                    color: #fcb941;
+                                }
+                            }
+                        }
+                    }
+
+
+                    .social{
+                        padding-top: 40px;
+                        p{
+                            text-align: center;
+                            color: #777;
+                        }
+                        .google-face{
+                            width: 100%;
+                            height: 40px;
+                            border: 1px solid #ebebeb;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            &:hover{
+                                background-color: #ebebeb;
+                            } 
+                            .google{
+                                color: #c33;
+                            }
+                            .facebook{
+                                color: #36c;
+                            }
+                            
+                        }
+                      
+                        a{
+                            text-decoration: none;          
+                            font-weight: 300;     
+                            color: #333;       
+                          
+                          
+                         }
+                    }
+                }
+            }
+        }
+    }
+}

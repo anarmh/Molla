@@ -1,0 +1,140 @@
+@import "../layout/header";
+@import "../layout/footer";
+
+#nav{
+    border-bottom: 1px solid hsla(0,0%,92.2%,.55);;
+    ul{
+        display: flex;
+       padding-top: 10px;
+       padding-left: 0;
+        gap: 20px;
+        li{
+            list-style-type: none;
+            color: #999490;
+            a{
+                text-decoration: none;
+                color: #999490;
+                &:hover{
+                    color: #fcb941;
+                }
+            }
+            i{
+                padding-right: 10px;
+                font-size: 12px;
+              
+            }
+        }
+    }
+}
+
+#page-header{
+    padding: 60px;
+    background-image: url("../../../img/page-header-bg.jpg");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    
+    .title{
+        text-align: center;
+        font: normal;
+        font-weight: 400;
+        color: #333;
+         margin-bottom: 0;
+    }
+    p{
+        text-align: center;
+        color: #fcb941;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}
+
+
+#wishlist{
+    padding-top: 30px;
+    
+    .wishlist-header{
+
+        .wishlist-empty{
+
+            i{
+                font-size: 100px;
+                color: #666666;
+            }
+            .add-wishlist{
+
+                color: #666666;
+            }
+            .return{
+
+                a{
+                    text-decoration: none;
+                    padding: 10px 30px;
+                    background-color: #fcb941;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    &:hover{
+                        background-color: #c28f30;
+                    }
+                }
+            }
+        }
+    }
+
+    .table{
+
+        thead{
+            th{
+                color: #999;
+            }
+        }
+
+
+        .wishlist-info{
+            img{
+                width: 50px;
+                height: 50px;
+            }
+            td{
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            .text{
+                span{
+                    color: #fcb941 !important;
+                }
+            }
+
+            .button{
+
+                button{
+                    padding: 10px 40px;
+                    color: #fcb941;
+                    font-size: 12px;
+                    border: 1px solid #fcb941;
+                    background-color: #fff;
+
+                    &:hover{
+                        background-color: #fcb941;
+                        color: #fff;
+                    }
+                   i{
+                    padding-right: 10px;
+                   }
+                }
+
+                .fa-xmark{
+                    padding-left: 20px;
+                    cursor: pointer;
+                    color: #ccc;
+                    &:hover{
+                        color: #333;
+                    }
+                }
+
+            }
+           
+        }
+    }
+}
